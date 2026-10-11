@@ -435,7 +435,8 @@ html[data-theme='dark'] .form-toast-error .form-toast-icon{background:#38211f;co
   .hero-visual{min-height:340px;height:340px}.engineering-graphic{height:335px}
   .illustration-heading,.illustration-footer{font-size:11px;left:13px;right:13px}
   .illustration-heading>span:last-child,.illustration-footer>span:last-child{display:none}
-  .strip-items{padding:17px 0;font-size:11px}
+  .strip-items{justify-content:center;flex-wrap:wrap;gap:10px 18px;overflow:visible;white-space:normal;padding:17px 0;font-size:11px}
+  .strip-items i{display:none}
   .section{padding-top:40px;padding-bottom:66px}.section-heading h1{font-size:clamp(35px,9.3vw,45px)}.section-heading p{font-size:15px}
   .area-grid,.resource-grid,.kit-grid,.contact-grid{grid-template-columns:1fr}
   .area-tile{min-height:156px;padding:21px}.area-tile strong{margin-top:18px}
