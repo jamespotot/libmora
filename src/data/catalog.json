@@ -1,0 +1,2742 @@
+[
+  {
+    "id": "arduino-ide",
+    "name": "Arduino IDE",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Write, compile and upload sketches to Arduino-compatible boards.",
+    "bestFor": "Introductory microcontroller programming, sensors and lab exercises.",
+    "url": "https://www.arduino.cc/en/software",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "arduino",
+      "microcontroller"
+    ],
+    "related": [
+      "arduino-uno",
+      "arduino-nano",
+      "adafruit-dht-sensor-library"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "arduino-cloud",
+    "name": "Arduino Cloud",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Browser-connected platform for Arduino sketches and IoT dashboards.",
+    "bestFor": "Cloud-based device workflows and remote monitoring.",
+    "url": "https://cloud.arduino.cc/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "arduino",
+      "iot"
+    ],
+    "related": [
+      "arduino-ide",
+      "arduino-uno",
+      "blynk-iot"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "blynk-iot",
+    "name": "Blynk IoT",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "IoT platform for device dashboards, monitoring and controls.",
+    "bestFor": "Remote monitoring projects with supported connected boards.",
+    "url": "https://blynk.io/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "iot"
+    ],
+    "related": [
+      "esp32-devkit",
+      "arduino-ide",
+      "esp32servo"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "droidscript",
+    "name": "DroidScript",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "JavaScript-based environment for developing Android applications.",
+    "bestFor": "Mobile interfaces and device-control experiments.",
+    "url": "https://droidscript.org/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "mobile"
+    ],
+    "related": [
+      "android-studio",
+      "blynk-iot"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "platformio",
+    "name": "PlatformIO",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Embedded development environment and library manager integrated with editors.",
+    "bestFor": "Multi-board firmware projects and dependency management.",
+    "url": "https://platformio.org/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "embedded"
+    ],
+    "related": [
+      "esp32-devkit",
+      "arduino-uno",
+      "visual-studio-code"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "esp-idf",
+    "name": "ESP-IDF",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Espressif's official IoT development framework for ESP chips.",
+    "bestFor": "Advanced ESP32 firmware and networking features.",
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "iot",
+      "esp32"
+    ],
+    "related": [
+      "esp32-devkit",
+      "freertos",
+      "esp32-s3"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "micropython",
+    "name": "MicroPython",
+    "kind": "language",
+    "area": "Embedded & IoT",
+    "description": "Python implementation designed for microcontrollers.",
+    "bestFor": "Rapid scripting on compatible microcontroller boards.",
+    "url": "https://micropython.org/",
+    "tags": [
+      "embedded & iot",
+      "language",
+      "python",
+      "microcontroller"
+    ],
+    "related": [
+      "raspberry-pi-pico-w",
+      "esp32-devkit",
+      "thonny"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "thonny",
+    "name": "Thonny",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Beginner-friendly Python editor with MicroPython support.",
+    "bestFor": "Programming Raspberry Pi Pico and introductory Python.",
+    "url": "https://thonny.org/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "python"
+    ],
+    "related": [
+      "micropython",
+      "raspberry-pi-pico-w",
+      "python"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "raspberry-pi-imager",
+    "name": "Raspberry Pi Imager",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Tool for installing operating systems on Raspberry Pi storage media.",
+    "bestFor": "Preparing Raspberry Pi computers for project work.",
+    "url": "https://www.raspberrypi.com/software/",
+    "tags": [
+      "embedded & iot",
+      "software"
+    ],
+    "related": [
+      "raspberry-pi-4",
+      "raspberry-pi-5"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "stm32cubeide",
+    "name": "STM32CubeIDE",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Integrated development environment for STM32 microcontrollers.",
+    "bestFor": "STM32 firmware and debugging labs.",
+    "url": "https://www.st.com/en/development-tools/stm32cubeide.html",
+    "tags": [
+      "embedded & iot",
+      "software"
+    ],
+    "related": [
+      "stm32-nucleo"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mplab-x-ide",
+    "name": "MPLAB X IDE",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Microchip IDE for developing and debugging embedded firmware.",
+    "bestFor": "PIC microcontroller coursework.",
+    "url": "https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "embedded",
+      "microcontroller"
+    ],
+    "related": [
+      "pic-microcontroller"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "node-red",
+    "name": "Node-RED",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Flow-based programming platform for connecting devices and services.",
+    "bestFor": "IoT data pipelines and automation workflows.",
+    "url": "https://nodered.org/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "iot",
+      "data"
+    ],
+    "related": [
+      "mosquitto",
+      "esp32-devkit",
+      "raspberry-pi-4"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mqtt-explorer",
+    "name": "MQTT Explorer",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Desktop tool for exploring MQTT topics and messages.",
+    "bestFor": "Debugging IoT publish/subscribe communication.",
+    "url": "https://mqtt-explorer.com/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "iot"
+    ],
+    "related": [
+      "mosquitto",
+      "node-red",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mosquitto",
+    "name": "Mosquitto",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Open-source MQTT message broker.",
+    "bestFor": "Connecting sensors, dashboards and IoT devices.",
+    "url": "https://mosquitto.org/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "iot"
+    ],
+    "related": [
+      "mqtt-explorer",
+      "pubsubclient",
+      "node-red"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "freertos",
+    "name": "FreeRTOS",
+    "kind": "software",
+    "area": "Embedded & IoT",
+    "description": "Real-time operating system kernel for microcontrollers.",
+    "bestFor": "Embedded systems with multiple time-sensitive tasks.",
+    "url": "https://www.freertos.org/",
+    "tags": [
+      "embedded & iot",
+      "software",
+      "embedded"
+    ],
+    "related": [
+      "esp-idf",
+      "stm32-nucleo"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "arduino-uno",
+    "name": "Arduino Uno",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Entry-level microcontroller board with digital and analog I/O.",
+    "bestFor": "Basic electronics, sensor interfacing and introductory automation.",
+    "url": "https://docs.arduino.cc/hardware/uno-rev3/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "microcontroller",
+      "electronics",
+      "sensor"
+    ],
+    "related": [
+      "arduino-ide",
+      "dht11",
+      "servo-motor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "arduino-nano",
+    "name": "Arduino Nano",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Compact Arduino microcontroller board family.",
+    "bestFor": "Breadboard-friendly embedded prototypes.",
+    "url": "https://docs.arduino.cc/hardware/nano/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "arduino",
+      "microcontroller",
+      "embedded"
+    ],
+    "related": [
+      "arduino-ide",
+      "dht11"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "arduino-mega",
+    "name": "Arduino Mega",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Arduino board with more I/O than an Uno.",
+    "bestFor": "Projects with many sensors, displays or connections.",
+    "url": "https://docs.arduino.cc/hardware/mega-2560/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "arduino"
+    ],
+    "related": [
+      "arduino-ide",
+      "servo-motor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "esp32-devkit",
+    "name": "ESP32 DevKit",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "ESP32 development board family with wireless capabilities; features vary by model.",
+    "bestFor": "Wi-Fi IoT systems, wireless sensors and automation.",
+    "url": "https://www.espressif.com/en/products/socs/esp32",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "esp32",
+      "iot"
+    ],
+    "related": [
+      "esp-idf",
+      "arduino-ide",
+      "blynk-iot",
+      "dht11"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "esp32-cam",
+    "name": "ESP32-CAM",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "ESP32 camera module commonly used in vision-oriented prototypes.",
+    "bestFor": "Image capture and compact camera-based IoT demonstrations.",
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/camera.html",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "esp32",
+      "iot"
+    ],
+    "related": [
+      "esp32-devkit",
+      "arduino-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "esp32-s3",
+    "name": "ESP32-S3",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Espressif microcontroller family with modern peripheral and wireless capabilities.",
+    "bestFor": "Advanced connected embedded and interface projects.",
+    "url": "https://www.espressif.com/en/products/socs/esp32-s3",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "microcontroller",
+      "embedded"
+    ],
+    "related": [
+      "esp-idf",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "esp8266-nodemcu",
+    "name": "ESP8266 NodeMCU",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Popular ESP8266-based development board with Wi-Fi.",
+    "bestFor": "Basic connected sensor and IoT prototypes.",
+    "url": "https://www.espressif.com/en/products/socs/esp8266",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor",
+      "iot"
+    ],
+    "related": [
+      "arduino-ide",
+      "mosquitto"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "raspberry-pi-pico-w",
+    "name": "Raspberry Pi Pico W",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "RP2040 microcontroller board with wireless networking.",
+    "bestFor": "MicroPython learning and Wi-Fi-enabled controller projects.",
+    "url": "https://www.raspberrypi.com/products/raspberry-pi-pico/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "microcontroller"
+    ],
+    "related": [
+      "micropython",
+      "thonny",
+      "dht11"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "raspberry-pi-4",
+    "name": "Raspberry Pi 4",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Linux-capable single-board computer with general-purpose I/O.",
+    "bestFor": "Local servers, computer vision and data dashboards.",
+    "url": "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "data"
+    ],
+    "related": [
+      "raspberry-pi-imager",
+      "python",
+      "opencv"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "raspberry-pi-5",
+    "name": "Raspberry Pi 5",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Linux single-board computer for more demanding computing projects.",
+    "bestFor": "Multitasking, local services and edge computing experiments.",
+    "url": "https://www.raspberrypi.com/products/raspberry-pi-5/",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "raspberry-pi-imager",
+      "opencv"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "stm32-nucleo",
+    "name": "STM32 Nucleo",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "ST development board family for STM32 microcontrollers.",
+    "bestFor": "ARM microcontroller programming and debugging.",
+    "url": "https://www.st.com/en/evaluation-tools/stm32-nucleo-boards.html",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "microcontroller"
+    ],
+    "related": [
+      "stm32cubeide",
+      "freertos"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "pic-microcontroller",
+    "name": "PIC microcontroller",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Microchip microcontroller families used in embedded control.",
+    "bestFor": "Low-level embedded programming and architecture labs.",
+    "url": "https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "microcontroller",
+      "embedded"
+    ],
+    "related": [
+      "mplab-x-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "dht11",
+    "name": "DHT11",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Low-cost digital temperature and relative humidity sensor.",
+    "bestFor": "Basic room-condition monitoring where high accuracy is not essential.",
+    "url": "https://learn.adafruit.com/dht",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor"
+    ],
+    "related": [
+      "adafruit-dht-sensor-library",
+      "arduino-uno",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "dht22",
+    "name": "DHT22",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Digital temperature and humidity sensor often used for environmental monitoring.",
+    "bestFor": "Temperature and humidity projects needing a different measurement range than DHT11.",
+    "url": "https://learn.adafruit.com/dht",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor"
+    ],
+    "related": [
+      "adafruit-dht-sensor-library",
+      "esp32-devkit",
+      "dht11"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "bme280",
+    "name": "BME280",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Environmental sensor measuring temperature, humidity and barometric pressure.",
+    "bestFor": "Compact weather and environmental sensing projects.",
+    "url": "https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor"
+    ],
+    "related": [
+      "arduino-ide",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "hc-sr04",
+    "name": "HC-SR04",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Ultrasonic module that estimates distance using sound pulses.",
+    "bestFor": "Obstacle detection, distance labs and introductory robotics.",
+    "url": "https://www.sparkfun.com/products/15569",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "robotics"
+    ],
+    "related": [
+      "arduino-uno",
+      "esp32-devkit",
+      "servo-motor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "pir-motion-sensor",
+    "name": "PIR Motion Sensor",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Detects changes in infrared radiation associated with motion.",
+    "bestFor": "Occupancy and motion-triggered projects.",
+    "url": "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "arduino-uno",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mpu6050",
+    "name": "MPU6050",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Motion sensor combining accelerometer and gyroscope measurements.",
+    "bestFor": "Orientation experiments, robotics and motion sensing.",
+    "url": "https://www.adafruit.com/product/3886",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor",
+      "robotics"
+    ],
+    "related": [
+      "arduino-uno",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "rc522-rfid-reader",
+    "name": "RC522 RFID Reader",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Common contactless RFID reader module.",
+    "bestFor": "RFID identification and access-control prototypes.",
+    "url": "https://github.com/miguelbalboa/rfid",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "mfrc522",
+      "arduino-uno",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "servo-motor",
+    "name": "Servo Motor",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Actuator for controlled mechanical positioning; actual behavior varies by model.",
+    "bestFor": "Small robotic arms, gates and angle-controlled mechanisms.",
+    "url": "https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "esp32servo",
+      "arduino-uno",
+      "arduino-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "stepper-motor",
+    "name": "Stepper Motor",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Motor driven in discrete steps using suitable driver electronics.",
+    "bestFor": "Repeatable positioning, CNC and motion-control demos.",
+    "url": "https://www.arduino.cc/reference/en/libraries/stepper/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "electronics"
+    ],
+    "related": [
+      "accelstepper",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "relay-module",
+    "name": "Relay Module",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Switching module for controlling separate circuits through a control signal.",
+    "bestFor": "Automation with properly rated loads and appropriate isolation.",
+    "url": "https://learn.sparkfun.com/tutorials/relay-basics/all",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "arduino-uno",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "oled-display",
+    "name": "OLED Display",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Compact display module commonly controlled over I2C or SPI; controller matters.",
+    "bestFor": "Small sensor dashboards and embedded interfaces.",
+    "url": "https://learn.adafruit.com/monochrome-oled-breakouts",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor",
+      "embedded"
+    ],
+    "related": [
+      "adafruit-ssd1306",
+      "adafruit-gfx",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "lcd-16x2",
+    "name": "LCD 16x2",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Character display used to show text and simple readings.",
+    "bestFor": "Low-cost status displays and sensor labs.",
+    "url": "https://docs.arduino.cc/learn/electronics/lcd-displays/",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor"
+    ],
+    "related": [
+      "liquidcrystal",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "resistor",
+    "name": "Resistor",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Passive component used to limit current and divide voltage.",
+    "bestFor": "LED circuits, bias networks and pull-up/pull-down connections.",
+    "url": "https://learn.sparkfun.com/tutorials/resistors/all",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "arduino-uno",
+      "led"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "capacitor",
+    "name": "Capacitor",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Passive component used for decoupling, filtering and energy storage.",
+    "bestFor": "Power supply smoothing, timing and analog circuits.",
+    "url": "https://learn.sparkfun.com/tutorials/capacitors/all",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "resistor",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "transistor",
+    "name": "Transistor",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Semiconductor device used for switching or amplification.",
+    "bestFor": "Driving compatible loads and studying amplifiers.",
+    "url": "https://learn.sparkfun.com/tutorials/transistors/all",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "resistor",
+      "relay-module"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mosfet",
+    "name": "MOSFET",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Field-effect transistor used in electronic switching and power circuits.",
+    "bestFor": "Efficient control of suitable DC loads with a proper driver circuit.",
+    "url": "https://learn.sparkfun.com/tutorials/transistors/all",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "circuit"
+    ],
+    "related": [
+      "resistor",
+      "dc-motor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "led",
+    "name": "LED",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Light-emitting diode used for status, illumination and circuit experiments.",
+    "bestFor": "Starter electronics and status indication.",
+    "url": "https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds/all",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "circuit",
+      "electronics"
+    ],
+    "related": [
+      "resistor",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "pushbutton",
+    "name": "Pushbutton",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Momentary switch that changes electrical connection while pressed, commonly used as a simple digital input.",
+    "bestFor": "Learning digital inputs, user controls, and switch wiring in low-voltage prototypes.",
+    "url": "https://learn.sparkfun.com/tutorials/button-and-switch-basics/all",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "input",
+      "switch"
+    ],
+    "related": [
+      "arduino-uno",
+      "breadboard",
+      "resistor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "potentiometer",
+    "name": "Potentiometer",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Adjustable resistor that can provide a variable voltage for analog input experiments when wired as a voltage divider.",
+    "bestFor": "Knob-based controls, analog input demonstrations, and variable voltage experiments within a circuit's safe input range.",
+    "url": "https://learn.sparkfun.com/tutorials/voltage-dividers/all",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "analog",
+      "input"
+    ],
+    "related": [
+      "arduino-uno",
+      "breadboard",
+      "resistor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "dc-motor",
+    "name": "DC Motor",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Rotary actuator driven by electrical power, usually requiring suitable driver hardware.",
+    "bestFor": "Simple movement and robotics prototypes.",
+    "url": "https://learn.adafruit.com/adafruit-motor-shield",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "robotics"
+    ],
+    "related": [
+      "arduino-uno",
+      "mosfet"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "breadboard",
+    "name": "Breadboard",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Reusable prototyping board for temporary electrical connections.",
+    "bestFor": "Assembling low-voltage circuits without soldering.",
+    "url": "https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "resistor",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "multimeter",
+    "name": "Multimeter",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Instrument for measuring voltage, resistance and current as supported by the instrument.",
+    "bestFor": "Electrical troubleshooting and circuit validation.",
+    "url": "https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "circuit"
+    ],
+    "related": [
+      "resistor",
+      "breadboard"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "oscilloscope",
+    "name": "Oscilloscope",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Instrument for displaying how electrical signals change over time.",
+    "bestFor": "Waveform analysis, timing and hardware debugging.",
+    "url": "https://www.tek.com/en/documents/primer/xyzs-oscilloscopes-primer",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "multimeter",
+      "logic-analyzer"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "logic-analyzer",
+    "name": "Logic Analyzer",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Tool for recording and examining digital signal timing.",
+    "bestFor": "Debugging SPI, I2C, UART and logic signals.",
+    "url": "https://sigrok.org/wiki/Main_Page",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "oscilloscope",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "hc-05-bluetooth-module",
+    "name": "HC-05 Bluetooth Module",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "Classic Bluetooth serial module often used with compatible microcontrollers.",
+    "bestFor": "Simple Bluetooth serial communication demonstrations.",
+    "url": "https://learn.sparkfun.com/tutorials/bluetooth-basics/all",
+    "tags": [
+      "hardware & components",
+      "hardware"
+    ],
+    "related": [
+      "arduino-uno",
+      "droidscript"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "nrf24l01",
+    "name": "NRF24L01",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "2.4 GHz radio transceiver module for short-range digital communication.",
+    "bestFor": "Wireless controller and sensor experiments.",
+    "url": "https://www.nordicsemi.com/Products/nRF24-series",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "sensor"
+    ],
+    "related": [
+      "arduino-uno",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "buck-converter",
+    "name": "Buck Converter",
+    "kind": "hardware",
+    "area": "Hardware & Components",
+    "description": "DC-DC regulator that steps down voltage within its rated operating range.",
+    "bestFor": "Supplying suitable low-voltage electronics from higher DC inputs.",
+    "url": "https://learn.sparkfun.com/tutorials/voltage-regulators/all",
+    "tags": [
+      "hardware & components",
+      "hardware",
+      "electronics"
+    ],
+    "related": [
+      "esp32-devkit",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "adafruit-dht-sensor-library",
+    "name": "Adafruit DHT Sensor Library",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Arduino library for supported DHT temperature and humidity sensors.",
+    "bestFor": "Connecting DHT11 and DHT22 sensors to compatible boards.",
+    "url": "https://github.com/adafruit/DHT-sensor-library",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "arduino"
+    ],
+    "related": [
+      "dht11",
+      "dht22",
+      "adafruit-unified-sensor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "adafruit-unified-sensor",
+    "name": "Adafruit Unified Sensor",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Common abstraction used by several Adafruit sensor libraries.",
+    "bestFor": "Supporting Adafruit sensor drivers and shared interfaces.",
+    "url": "https://github.com/adafruit/Adafruit_Sensor",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "sensor"
+    ],
+    "related": [
+      "adafruit-dht-sensor-library",
+      "dht11"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "liquidcrystal",
+    "name": "LiquidCrystal",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Arduino library for compatible character LCD displays.",
+    "bestFor": "Showing text on character displays.",
+    "url": "https://docs.arduino.cc/libraries/liquidcrystal/",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "arduino"
+    ],
+    "related": [
+      "lcd-16x2",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "adafruit-gfx",
+    "name": "Adafruit GFX",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Graphics primitives for compatible displays.",
+    "bestFor": "Drawing text and shapes on embedded displays.",
+    "url": "https://github.com/adafruit/Adafruit-GFX-Library",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "embedded"
+    ],
+    "related": [
+      "oled-display",
+      "adafruit-ssd1306"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "adafruit-ssd1306",
+    "name": "Adafruit SSD1306",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Driver library for supported SSD1306 OLED displays.",
+    "bestFor": "Using SSD1306-based displays with Arduino-compatible boards.",
+    "url": "https://github.com/adafruit/Adafruit_SSD1306",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "arduino"
+    ],
+    "related": [
+      "adafruit-gfx",
+      "oled-display"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "u8g2",
+    "name": "U8g2",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Monochrome display library supporting many embedded displays.",
+    "bestFor": "Display projects across supported controllers and transports.",
+    "url": "https://github.com/olikraus/u8g2",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "embedded"
+    ],
+    "related": [
+      "oled-display",
+      "arduino-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "esp32servo",
+    "name": "ESP32Servo",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Servo-control library for compatible ESP32 Arduino environments.",
+    "bestFor": "Controlling suitable servos on ESP32-based projects.",
+    "url": "https://github.com/madhephaestus/ESP32Servo",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "esp32",
+      "arduino"
+    ],
+    "related": [
+      "servo-motor",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "accelstepper",
+    "name": "AccelStepper",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Arduino library for controlling stepper motor motion.",
+    "bestFor": "Acceleration profiles and coordinated stepper motion.",
+    "url": "https://www.airspayce.com/mikem/arduino/AccelStepper/",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "arduino"
+    ],
+    "related": [
+      "stepper-motor",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "onewire",
+    "name": "OneWire",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Arduino communication library for 1-Wire devices.",
+    "bestFor": "Connecting compatible 1-Wire sensors.",
+    "url": "https://www.pjrc.com/teensy/td_libs_OneWire.html",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "arduino"
+    ],
+    "related": [
+      "arduino-uno",
+      "dht11"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "dallastemperature",
+    "name": "DallasTemperature",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Temperature-sensor library often paired with OneWire.",
+    "bestFor": "Reading compatible DS18B20 temperature sensors.",
+    "url": "https://github.com/milesburton/Arduino-Temperature-Control-Library",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "sensor"
+    ],
+    "related": [
+      "onewire",
+      "arduino-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mfrc522",
+    "name": "MFRC522",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Library for supported MFRC522 RFID reader modules.",
+    "bestFor": "Building RFID reading prototypes.",
+    "url": "https://github.com/miguelbalboa/rfid",
+    "tags": [
+      "libraries & dependencies",
+      "library"
+    ],
+    "related": [
+      "rc522-rfid-reader",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "tinygpsplus",
+    "name": "TinyGPSPlus",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Arduino parser for NMEA GPS data.",
+    "bestFor": "Parsing position data from supported GPS receivers.",
+    "url": "https://github.com/mikalhart/TinyGPSPlus",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "arduino",
+      "data"
+    ],
+    "related": [
+      "arduino-ide",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "pubsubclient",
+    "name": "PubSubClient",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Arduino MQTT client library.",
+    "bestFor": "Connecting supported microcontrollers to MQTT brokers.",
+    "url": "https://pubsubclient.knolleary.net/",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "arduino"
+    ],
+    "related": [
+      "mosquitto",
+      "esp32-devkit",
+      "node-red"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "arduinojson",
+    "name": "ArduinoJson",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "JSON serialization and parsing for embedded platforms.",
+    "bestFor": "Sending and parsing structured IoT data.",
+    "url": "https://arduinojson.org/",
+    "tags": [
+      "libraries & dependencies",
+      "library",
+      "embedded",
+      "iot",
+      "data"
+    ],
+    "related": [
+      "esp32-devkit",
+      "arduino-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "fastled",
+    "name": "FastLED",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Library for programmable LED strips and animations.",
+    "bestFor": "Addressable LED lighting effects.",
+    "url": "https://fastled.io/",
+    "tags": [
+      "libraries & dependencies",
+      "library"
+    ],
+    "related": [
+      "arduino-ide",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "adafruit-neopixel",
+    "name": "Adafruit NeoPixel",
+    "kind": "library",
+    "area": "Libraries & Dependencies",
+    "description": "Driver library for compatible addressable RGB LEDs.",
+    "bestFor": "Basic programmable LED strips and visual feedback.",
+    "url": "https://github.com/adafruit/Adafruit_NeoPixel",
+    "tags": [
+      "libraries & dependencies",
+      "library"
+    ],
+    "related": [
+      "arduino-uno",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "fritzing",
+    "name": "Fritzing",
+    "kind": "software",
+    "area": "Circuit Design",
+    "description": "Electronics design tool for breadboard views, schematics and PCBs.",
+    "bestFor": "Explaining wiring and documenting beginner prototypes.",
+    "url": "https://fritzing.org/",
+    "tags": [
+      "circuit design",
+      "software",
+      "electronics"
+    ],
+    "related": [
+      "breadboard",
+      "arduino-uno"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "proteus",
+    "name": "Proteus",
+    "kind": "software",
+    "area": "Circuit Design",
+    "description": "Commercial electronics design and simulation software.",
+    "bestFor": "Circuit schematics and supported microcontroller simulations.",
+    "url": "https://www.labcenter.com/",
+    "tags": [
+      "circuit design",
+      "software",
+      "electronics",
+      "simulation",
+      "circuit",
+      "microcontroller"
+    ],
+    "related": [
+      "arduino-uno",
+      "kicad"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "kicad",
+    "name": "KiCad",
+    "kind": "software",
+    "area": "Circuit Design",
+    "description": "Open-source schematic capture and PCB layout suite.",
+    "bestFor": "Designing PCB prototypes and preparing fabrication files.",
+    "url": "https://www.kicad.org/",
+    "tags": [
+      "circuit design",
+      "software"
+    ],
+    "related": [
+      "fritzing",
+      "easyeda"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "easyeda",
+    "name": "EasyEDA",
+    "kind": "software",
+    "area": "Circuit Design",
+    "description": "Web-oriented schematic and PCB design environment.",
+    "bestFor": "Collaborative and browser-based PCB design workflows.",
+    "url": "https://easyeda.com/",
+    "tags": [
+      "circuit design",
+      "software",
+      "web"
+    ],
+    "related": [
+      "kicad",
+      "fritzing"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "ltspice",
+    "name": "LTspice",
+    "kind": "software",
+    "area": "Circuit Design",
+    "description": "Circuit simulation software with SPICE analysis.",
+    "bestFor": "Analog circuits and power electronics experiments.",
+    "url": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+    "tags": [
+      "circuit design",
+      "software",
+      "circuit",
+      "simulation",
+      "electronics"
+    ],
+    "related": [
+      "ngspice",
+      "kicad"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "tinkercad-circuits",
+    "name": "Tinkercad Circuits",
+    "kind": "software",
+    "area": "Simulation",
+    "description": "Browser-based environment for introductory circuits and microcontroller simulations.",
+    "bestFor": "Learning electronics concepts without immediate hardware.",
+    "url": "https://www.tinkercad.com/circuits",
+    "tags": [
+      "simulation",
+      "software",
+      "microcontroller",
+      "electronics",
+      "hardware"
+    ],
+    "related": [
+      "arduino-uno",
+      "resistor",
+      "led"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "wokwi",
+    "name": "Wokwi",
+    "kind": "software",
+    "area": "Simulation",
+    "description": "Online electronics simulator supporting selected microcontrollers and peripherals.",
+    "bestFor": "Testing Arduino and ESP32 code in supported virtual hardware.",
+    "url": "https://wokwi.com/",
+    "tags": [
+      "simulation",
+      "software",
+      "electronics",
+      "arduino",
+      "esp32",
+      "hardware"
+    ],
+    "related": [
+      "esp32-devkit",
+      "arduino-uno",
+      "arduino-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "simulide",
+    "name": "SimulIDE",
+    "kind": "software",
+    "area": "Simulation",
+    "description": "Real-time electronic circuit simulator oriented toward education.",
+    "bestFor": "Basic microcontroller and circuit demonstrations.",
+    "url": "https://simulide.com/",
+    "tags": [
+      "simulation",
+      "software",
+      "circuit",
+      "microcontroller"
+    ],
+    "related": [
+      "arduino-uno",
+      "proteus"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "falstad-circuit-simulator",
+    "name": "Falstad Circuit Simulator",
+    "kind": "software",
+    "area": "Simulation",
+    "description": "Interactive browser-based circuit simulator.",
+    "bestFor": "Visualizing voltage, current and simple analog circuits.",
+    "url": "https://falstad.com/circuit/",
+    "tags": [
+      "simulation",
+      "software",
+      "circuit"
+    ],
+    "related": [
+      "resistor",
+      "capacitor",
+      "transistor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "ngspice",
+    "name": "ngspice",
+    "kind": "software",
+    "area": "Simulation",
+    "description": "Open-source SPICE circuit simulation engine.",
+    "bestFor": "Studying analog circuits and transient responses.",
+    "url": "https://ngspice.sourceforge.io/",
+    "tags": [
+      "simulation",
+      "software",
+      "circuit"
+    ],
+    "related": [
+      "ltspice",
+      "kicad"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "diagrams-net",
+    "name": "diagrams.net",
+    "kind": "software",
+    "area": "Diagrams",
+    "description": "Browser-based diagram editor for creating flowcharts, network diagrams, system maps and other visual documentation.",
+    "bestFor": "Preparing system block diagrams, network topologies and process flows; check the linked app's current sharing and storage terms before using sensitive diagrams.",
+    "url": "https://app.diagrams.net/",
+    "license": "Apache-2.0 (source code)",
+    "licenseUrl": "https://github.com/jgraph/drawio/blob/dev/LICENSE",
+    "lastVerified": "2026-10-11",
+    "tags": [
+      "diagrams",
+      "software"
+    ],
+    "related": [
+      "mermaid",
+      "excalidraw"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mermaid",
+    "name": "Mermaid",
+    "kind": "software",
+    "area": "Diagrams",
+    "description": "JavaScript-based tool that converts text definitions into diagrams and charts, including flowcharts and sequence diagrams.",
+    "bestFor": "Keeping supported diagrams in text form beside code and technical documentation.",
+    "url": "https://mermaid.js.org/",
+    "license": "MIT (source code)",
+    "licenseUrl": "https://github.com/mermaid-js/mermaid/blob/develop/LICENSE",
+    "lastVerified": "2026-10-11",
+    "tags": [
+      "diagrams",
+      "software"
+    ],
+    "related": [
+      "diagrams-net"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "kind": "software",
+    "area": "Diagrams",
+    "description": "Collaborative, browser-based whiteboard for sketching diagrams with a hand-drawn visual style.",
+    "bestFor": "Early-stage system sketches, whiteboarding and visual architecture discussions.",
+    "url": "https://excalidraw.com/",
+    "license": "MIT (source code)",
+    "licenseUrl": "https://github.com/excalidraw/excalidraw/blob/master/LICENSE",
+    "lastVerified": "2026-10-11",
+    "tags": [
+      "diagrams",
+      "software"
+    ],
+    "related": [
+      "diagrams-net"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "plantuml",
+    "name": "PlantUML",
+    "kind": "software",
+    "area": "Diagrams",
+    "description": "Text-based diagramming tool that generates UML and other diagram types from plain-text descriptions.",
+    "bestFor": "Generating reviewable diagrams from version-controlled text files and technical documentation.",
+    "url": "https://plantuml.com/",
+    "license": "MIT (source code)",
+    "licenseUrl": "https://github.com/plantuml/plantuml/blob/master/LICENSE",
+    "lastVerified": "2026-10-11",
+    "tags": [
+      "diagrams",
+      "software"
+    ],
+    "related": [
+      "mermaid",
+      "diagrams-net"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "visual-studio-code",
+    "name": "Visual Studio Code",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Extensible code editor for multiple languages and workflows.",
+    "bestFor": "Programming labs, web development and embedded workflows.",
+    "url": "https://code.visualstudio.com/",
+    "tags": [
+      "programming",
+      "software",
+      "web",
+      "embedded"
+    ],
+    "related": [
+      "platformio",
+      "git",
+      "python"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "programiz",
+    "name": "Programiz",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Online programming tutorials and compilers for several languages.",
+    "bestFor": "Quickly running beginner code without configuring an IDE.",
+    "url": "https://www.programiz.com/",
+    "tags": [
+      "programming",
+      "software"
+    ],
+    "related": [
+      "onlinegdb",
+      "python",
+      "c"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "onlinegdb",
+    "name": "OnlineGDB",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Browser-based compiler and debugging environment.",
+    "bestFor": "Running and debugging introductory C, C++ and other code.",
+    "url": "https://www.onlinegdb.com/",
+    "tags": [
+      "programming",
+      "software"
+    ],
+    "related": [
+      "programiz",
+      "c"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "eclipse-ide",
+    "name": "Eclipse IDE",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Extensible IDE frequently used for Java and other ecosystems.",
+    "bestFor": "Java coursework and IDE-based debugging.",
+    "url": "https://www.eclipse.org/ide/",
+    "tags": [
+      "programming",
+      "software"
+    ],
+    "related": [
+      "java",
+      "apache-netbeans"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "apache-netbeans",
+    "name": "Apache NetBeans",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Integrated development environment for Java and other languages.",
+    "bestFor": "Java projects and desktop application exercises.",
+    "url": "https://netbeans.apache.org/",
+    "tags": [
+      "programming",
+      "software"
+    ],
+    "related": [
+      "java",
+      "eclipse-ide"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "jupyterlab",
+    "name": "JupyterLab",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Interactive development environment for notebooks and code.",
+    "bestFor": "Scientific computing, Python experiments and visualization.",
+    "url": "https://jupyter.org/",
+    "tags": [
+      "programming",
+      "software",
+      "python"
+    ],
+    "related": [
+      "python",
+      "numpy",
+      "google-colab"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "google-colab",
+    "name": "Google Colab",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Hosted notebook environment for Python projects.",
+    "bestFor": "Experimenting with AI, vision and numerical computing.",
+    "url": "https://colab.research.google.com/",
+    "tags": [
+      "programming",
+      "software",
+      "python"
+    ],
+    "related": [
+      "jupyterlab",
+      "python",
+      "opencv"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "android-studio",
+    "name": "Android Studio",
+    "kind": "software",
+    "area": "Programming",
+    "description": "Official IDE for native Android application development.",
+    "bestFor": "Android mobile apps and hardware connectivity interfaces.",
+    "url": "https://developer.android.com/studio",
+    "tags": [
+      "programming",
+      "software",
+      "mobile",
+      "hardware"
+    ],
+    "related": [
+      "droidscript",
+      "mit-app-inventor"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "kind": "language",
+    "area": "Languages",
+    "description": "General-purpose procedural programming language standardized by ISO and used for systems software, embedded firmware, compilers and low-level libraries. Available features depend on the selected C standard and toolchain.",
+    "bestFor": "Microcontroller firmware and low-level algorithms.",
+    "url": "https://en.cppreference.com/w/c",
+    "tags": [
+      "languages",
+      "language",
+      "embedded",
+      "microcontroller"
+    ],
+    "related": [
+      "arduino-ide",
+      "visual-studio-code"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "kind": "language",
+    "area": "Languages",
+    "description": "General-purpose compiled programming language standardized by ISO, supporting procedural, object-oriented and generic programming. Available features depend on the selected C++ standard and toolchain.",
+    "bestFor": "Firmware, data structures and real-time applications.",
+    "url": "https://isocpp.org/",
+    "tags": [
+      "languages",
+      "language",
+      "embedded",
+      "robotics",
+      "software",
+      "data"
+    ],
+    "related": [
+      "arduino-ide",
+      "onlinegdb"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "kind": "language",
+    "area": "Languages",
+    "description": "General-purpose language popular for automation, data science and prototyping.",
+    "bestFor": "IoT gateways, machine learning and scripting.",
+    "url": "https://www.python.org/",
+    "tags": [
+      "languages",
+      "language",
+      "data",
+      "iot"
+    ],
+    "related": [
+      "thonny",
+      "jupyterlab",
+      "opencv"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "kind": "language",
+    "area": "Languages",
+    "description": "Widely used language for coursework, backend and Android ecosystems.",
+    "bestFor": "Object-oriented programming and application development.",
+    "url": "https://dev.java/",
+    "tags": [
+      "languages",
+      "language"
+    ],
+    "related": [
+      "eclipse-ide",
+      "apache-netbeans"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "kind": "language",
+    "area": "Languages",
+    "description": "Programming language used in browsers and server-side environments.",
+    "bestFor": "Web dashboards and connected system interfaces.",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "tags": [
+      "languages",
+      "language",
+      "web"
+    ],
+    "related": [
+      "react",
+      "node-js"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "verilog",
+    "name": "Verilog",
+    "kind": "language",
+    "area": "Languages",
+    "description": "Hardware description language used to model digital circuits.",
+    "bestFor": "FPGA, HDL simulation and digital design courses.",
+    "url": "https://www.verilog.com/",
+    "tags": [
+      "languages",
+      "language",
+      "hardware",
+      "simulation"
+    ],
+    "related": [
+      "modelsim",
+      "gtkwave"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "vhdl",
+    "name": "VHDL",
+    "kind": "language",
+    "area": "Languages",
+    "description": "Hardware description language for digital circuit design and verification.",
+    "bestFor": "Digital logic and FPGA laboratory activities.",
+    "url": "https://www.vhdl.org/",
+    "tags": [
+      "languages",
+      "language",
+      "hardware",
+      "circuit"
+    ],
+    "related": [
+      "modelsim",
+      "gtkwave"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "modelsim",
+    "name": "ModelSim",
+    "kind": "software",
+    "area": "Digital Logic",
+    "description": "HDL simulation environment used for Verilog and VHDL designs.",
+    "bestFor": "Testbenches, waveforms and digital verification.",
+    "url": "https://eda.sw.siemens.com/en-US/ic/modelsim/",
+    "tags": [
+      "digital logic",
+      "software",
+      "simulation"
+    ],
+    "related": [
+      "verilog",
+      "vhdl",
+      "gtkwave"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "tis-100",
+    "name": "TIS-100",
+    "kind": "software",
+    "area": "Digital Logic",
+    "description": "Assembly-like programming puzzle game with a fictional computer architecture.",
+    "bestFor": "Practicing low-level reasoning in a game setting, not a professional HDL simulator.",
+    "url": "https://www.zachtronics.com/tis-100/",
+    "tags": [
+      "digital logic",
+      "software"
+    ],
+    "related": [
+      "rars",
+      "logisim-evolution"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "logisim-evolution",
+    "name": "Logisim-evolution",
+    "kind": "software",
+    "area": "Digital Logic",
+    "description": "Digital logic simulator for designing circuits and educational processors.",
+    "bestFor": "Logic gates, combinational circuits and CPU fundamentals.",
+    "url": "https://github.com/logisim-evolution/logisim-evolution",
+    "tags": [
+      "digital logic",
+      "software"
+    ],
+    "related": [
+      "tis-100",
+      "verilog"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "gtkwave",
+    "name": "GTKWave",
+    "kind": "software",
+    "area": "Digital Logic",
+    "description": "Waveform viewer for simulator output files.",
+    "bestFor": "Inspecting digital traces from HDL simulations.",
+    "url": "https://gtkwave.sourceforge.net/",
+    "tags": [
+      "digital logic",
+      "software"
+    ],
+    "related": [
+      "modelsim",
+      "verilog"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "rars",
+    "name": "RARS",
+    "kind": "software",
+    "area": "Digital Logic",
+    "description": "RISC-V assembler and runtime simulator.",
+    "bestFor": "Assembly programming and computer architecture exercises.",
+    "url": "https://github.com/TheThirdOne/rars",
+    "tags": [
+      "digital logic",
+      "software"
+    ],
+    "related": [
+      "tis-100",
+      "logisim-evolution"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "kind": "software",
+    "area": "Web & Databases",
+    "description": "Relational database management system.",
+    "bestFor": "Student databases and server-backed applications.",
+    "url": "https://dev.mysql.com/",
+    "tags": [
+      "web & databases",
+      "software"
+    ],
+    "related": [
+      "phpmyadmin",
+      "fastapi"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "phpmyadmin",
+    "name": "phpMyAdmin",
+    "kind": "software",
+    "area": "Web & Databases",
+    "description": "Browser-based administration interface for MySQL-compatible databases.",
+    "bestFor": "Managing SQL tables in local web projects.",
+    "url": "https://www.phpmyadmin.net/",
+    "tags": [
+      "web & databases",
+      "software",
+      "web"
+    ],
+    "related": [
+      "mysql"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "kind": "software",
+    "area": "Web & Databases",
+    "description": "Hosted backend platform built around PostgreSQL and related services.",
+    "bestFor": "Prototyping database-backed applications and dashboards.",
+    "url": "https://supabase.com/",
+    "tags": [
+      "web & databases",
+      "software"
+    ],
+    "related": [
+      "postgresql",
+      "react"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "kind": "library",
+    "area": "Web & Databases",
+    "description": "Python web framework for building APIs with type hints.",
+    "bestFor": "IoT data APIs and backend services.",
+    "url": "https://fastapi.tiangolo.com/",
+    "tags": [
+      "web & databases",
+      "library",
+      "python",
+      "web",
+      "iot",
+      "data"
+    ],
+    "related": [
+      "python",
+      "mysql",
+      "esp32-devkit"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "kind": "software",
+    "area": "Web & Databases",
+    "description": "Open-source relational database system.",
+    "bestFor": "Structured application data and research datasets.",
+    "url": "https://www.postgresql.org/",
+    "tags": [
+      "web & databases",
+      "software",
+      "data"
+    ],
+    "related": [
+      "supabase",
+      "fastapi"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "kind": "software",
+    "area": "Web & Databases",
+    "description": "Embedded SQL database stored as files.",
+    "bestFor": "Local applications and prototypes without a database server.",
+    "url": "https://www.sqlite.org/",
+    "tags": [
+      "web & databases",
+      "software",
+      "embedded"
+    ],
+    "related": [
+      "python",
+      "fastapi"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "kind": "library",
+    "area": "Web & Databases",
+    "description": "Component-based JavaScript library for user interfaces.",
+    "bestFor": "Building interactive dashboards and web applications.",
+    "url": "https://react.dev/",
+    "tags": [
+      "web & databases",
+      "library",
+      "web"
+    ],
+    "related": [
+      "javascript",
+      "fastapi"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "node-js",
+    "name": "Node.js",
+    "kind": "software",
+    "area": "Web & Databases",
+    "description": "JavaScript runtime for server and development tooling.",
+    "bestFor": "APIs, scripts and modern frontend tooling.",
+    "url": "https://nodejs.org/",
+    "tags": [
+      "web & databases",
+      "software"
+    ],
+    "related": [
+      "javascript",
+      "react"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "kind": "software",
+    "area": "Web & Databases",
+    "description": "Tool for sending, inspecting and testing HTTP API requests.",
+    "bestFor": "Testing device-to-server endpoints and backend APIs.",
+    "url": "https://www.postman.com/",
+    "tags": [
+      "web & databases",
+      "software"
+    ],
+    "related": [
+      "fastapi",
+      "node-js"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "mit-app-inventor",
+    "name": "MIT App Inventor",
+    "kind": "software",
+    "area": "Mobile & Connectivity",
+    "description": "Visual programming environment for Android apps.",
+    "bestFor": "Student-made phone interfaces and hardware projects.",
+    "url": "https://appinventor.mit.edu/",
+    "tags": [
+      "mobile & connectivity",
+      "software",
+      "hardware"
+    ],
+    "related": [
+      "arduino-uno",
+      "esp32-devkit",
+      "blynk-iot"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "kind": "software",
+    "area": "Mobile & Connectivity",
+    "description": "Cross-platform UI toolkit for building applications.",
+    "bestFor": "Mobile dashboards and client interfaces.",
+    "url": "https://flutter.dev/",
+    "tags": [
+      "mobile & connectivity",
+      "software",
+      "mobile"
+    ],
+    "related": [
+      "android-studio",
+      "firebase"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "kind": "software",
+    "area": "Mobile & Connectivity",
+    "description": "Managed backend services for apps, including databases and authentication.",
+    "bestFor": "Mobile prototypes and connected app backends.",
+    "url": "https://firebase.google.com/",
+    "tags": [
+      "mobile & connectivity",
+      "software",
+      "mobile"
+    ],
+    "related": [
+      "flutter",
+      "blynk-iot"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "tinkercad-3d",
+    "name": "Tinkercad 3D",
+    "kind": "software",
+    "area": "CAD & Prototyping",
+    "description": "Browser-based 3D modeling for beginner designs.",
+    "bestFor": "Simple enclosures and printable models.",
+    "url": "https://www.tinkercad.com/3d-design",
+    "tags": [
+      "cad & prototyping",
+      "software"
+    ],
+    "related": [
+      "freecad",
+      "fritzing"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "freecad",
+    "name": "FreeCAD",
+    "kind": "software",
+    "area": "CAD & Prototyping",
+    "description": "Parametric 3D CAD application.",
+    "bestFor": "Designing customizable hardware enclosures and mounts.",
+    "url": "https://www.freecad.org/",
+    "tags": [
+      "cad & prototyping",
+      "software",
+      "hardware"
+    ],
+    "related": [
+      "tinkercad-3d"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "kind": "software",
+    "area": "CAD & Prototyping",
+    "description": "Open-source 3D creation suite.",
+    "bestFor": "Visualization and selected 3D-printable designs.",
+    "url": "https://www.blender.org/",
+    "tags": [
+      "cad & prototyping",
+      "software"
+    ],
+    "related": [
+      "freecad"
+    ],
+    "priority": 0
+  },
+  {
+    "id": "cisco-packet-tracer",
+    "name": "Cisco Packet Tracer",
+    "kind": "software",
+    "area": "Networking",
+    "description": "Educational network simulation and topology tool.",
+    "bestFor": "Network configuration and routing lab exercises.",
+    "url": "https://www.netacad.com/cisco-packet-tracer",
+    "tags": [
+      "networking",
+      "software",
+      "simulation"
+    ],
+    "related": [
+      "wireshark"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "kind": "software",
+    "area": "Networking",
+    "description": "Protocol analyzer for inspecting network traffic.",
+    "bestFor": "Debugging network protocols and communication issues.",
+    "url": "https://www.wireshark.org/",
+    "tags": [
+      "networking",
+      "software"
+    ],
+    "related": [
+      "cisco-packet-tracer",
+      "esp32-devkit"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "opencv",
+    "name": "OpenCV",
+    "kind": "library",
+    "area": "AI & Vision",
+    "description": "Computer vision library with image processing and video tools.",
+    "bestFor": "Camera-based detection and vision research projects.",
+    "url": "https://opencv.org/",
+    "tags": [
+      "ai & vision",
+      "library"
+    ],
+    "related": [
+      "python",
+      "raspberry-pi-4",
+      "google-colab"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "kind": "library",
+    "area": "AI & Vision",
+    "description": "Machine learning platform for training and deploying models.",
+    "bestFor": "Classification and engineering ML experiments.",
+    "url": "https://www.tensorflow.org/",
+    "tags": [
+      "ai & vision",
+      "library"
+    ],
+    "related": [
+      "google-colab",
+      "python"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "kind": "library",
+    "area": "AI & Vision",
+    "description": "Machine learning framework used for research and applications.",
+    "bestFor": "Computer vision and model experimentation.",
+    "url": "https://pytorch.org/",
+    "tags": [
+      "ai & vision",
+      "library"
+    ],
+    "related": [
+      "google-colab",
+      "python"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "edge-impulse",
+    "name": "Edge Impulse",
+    "kind": "software",
+    "area": "AI & Vision",
+    "description": "Platform for developing and deploying edge ML models.",
+    "bestFor": "Embedded AI prototype development.",
+    "url": "https://edgeimpulse.com/",
+    "tags": [
+      "ai & vision",
+      "software",
+      "embedded"
+    ],
+    "related": [
+      "esp32-s3",
+      "arduino-ide"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "ros-2",
+    "name": "ROS 2",
+    "kind": "software",
+    "area": "Robotics",
+    "description": "Robot middleware with messaging, tools and package ecosystem.",
+    "bestFor": "Robotics software integration and sensor pipelines.",
+    "url": "https://docs.ros.org/",
+    "tags": [
+      "robotics",
+      "software",
+      "sensor"
+    ],
+    "related": [
+      "gazebo",
+      "python"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "gazebo",
+    "name": "Gazebo",
+    "kind": "software",
+    "area": "Robotics",
+    "description": "Robotics and physics simulation environment.",
+    "bestFor": "Testing robot behavior in simulation.",
+    "url": "https://gazebosim.org/",
+    "tags": [
+      "robotics",
+      "software",
+      "simulation"
+    ],
+    "related": [
+      "ros-2"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "gnu-octave",
+    "name": "GNU Octave",
+    "kind": "software",
+    "area": "Signals & Computing",
+    "description": "Numerical computing environment with MATLAB-like syntax.",
+    "bestFor": "Signal-processing exercises and numerical methods.",
+    "url": "https://octave.org/",
+    "tags": [
+      "signals & computing",
+      "software"
+    ],
+    "related": [
+      "python",
+      "numpy"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "kind": "library",
+    "area": "Signals & Computing",
+    "description": "Python library for multidimensional arrays and numerical operations.",
+    "bestFor": "Sensor processing and data analysis.",
+    "url": "https://numpy.org/",
+    "tags": [
+      "signals & computing",
+      "library",
+      "python",
+      "sensor",
+      "data"
+    ],
+    "related": [
+      "python",
+      "scipy"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "scipy",
+    "name": "SciPy",
+    "kind": "library",
+    "area": "Signals & Computing",
+    "description": "Scientific algorithms built on Python numerical computing.",
+    "bestFor": "Filtering, optimization and signal analysis.",
+    "url": "https://scipy.org/",
+    "tags": [
+      "signals & computing",
+      "library",
+      "python"
+    ],
+    "related": [
+      "numpy",
+      "python"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "kind": "software",
+    "area": "Developer Utilities",
+    "description": "Distributed version-control system.",
+    "bestFor": "Tracking code and collaborating on projects.",
+    "url": "https://git-scm.com/",
+    "tags": [
+      "developer utilities",
+      "software"
+    ],
+    "related": [
+      "github",
+      "visual-studio-code"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "kind": "software",
+    "area": "Developer Utilities",
+    "description": "Repository hosting and code collaboration platform.",
+    "bestFor": "Managing team software and capstone source code.",
+    "url": "https://github.com/",
+    "tags": [
+      "developer utilities",
+      "software"
+    ],
+    "related": [
+      "git",
+      "visual-studio-code"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "kind": "software",
+    "area": "Developer Utilities",
+    "description": "Container tooling for packaging and running software.",
+    "bestFor": "Reproducible development and deployment environments.",
+    "url": "https://www.docker.com/",
+    "tags": [
+      "developer utilities",
+      "software"
+    ],
+    "related": [
+      "node-js",
+      "fastapi"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "arduino-documentation",
+    "name": "Arduino Documentation",
+    "kind": "reference",
+    "area": "Documentation",
+    "description": "Official board, programming and hardware references.",
+    "bestFor": "Checking pins, supported features and installation guidance.",
+    "url": "https://docs.arduino.cc/",
+    "tags": [
+      "documentation",
+      "reference",
+      "hardware"
+    ],
+    "related": [
+      "arduino-uno",
+      "arduino-ide"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "espressif-documentation",
+    "name": "Espressif Documentation",
+    "kind": "reference",
+    "area": "Documentation",
+    "description": "Official ESP platform datasheets, examples and development guides.",
+    "bestFor": "Checking ESP32 board features and supported APIs.",
+    "url": "https://docs.espressif.com/",
+    "tags": [
+      "documentation",
+      "reference",
+      "esp32"
+    ],
+    "related": [
+      "esp32-devkit",
+      "esp-idf"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "raspberry-pi-documentation",
+    "name": "Raspberry Pi Documentation",
+    "kind": "reference",
+    "area": "Documentation",
+    "description": "Official technical guides for Raspberry Pi boards and software.",
+    "bestFor": "Reviewing board interfaces and supported setups.",
+    "url": "https://www.raspberrypi.com/documentation/",
+    "tags": [
+      "documentation",
+      "reference",
+      "software"
+    ],
+    "related": [
+      "raspberry-pi-4",
+      "raspberry-pi-pico-w"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "adafruit-learning-system",
+    "name": "Adafruit Learning System",
+    "kind": "reference",
+    "area": "Documentation",
+    "description": "Tutorials for sensors, displays and maker electronics.",
+    "bestFor": "Wiring guides and hands-on beginner projects.",
+    "url": "https://learn.adafruit.com/",
+    "tags": [
+      "documentation",
+      "reference",
+      "electronics"
+    ],
+    "related": [
+      "dht11",
+      "oled-display"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp",
+    "kind": "reference",
+    "area": "Learning & Community",
+    "description": "Free programming courses and hands-on learning material.",
+    "bestFor": "Supplementing web and programming coursework.",
+    "url": "https://www.freecodecamp.org/",
+    "tags": [
+      "learning & community",
+      "reference",
+      "web"
+    ],
+    "related": [
+      "javascript",
+      "react"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "electronics-stack-exchange",
+    "name": "Electronics Stack Exchange",
+    "kind": "reference",
+    "area": "Learning & Community",
+    "description": "Community Q&A about electronics design and troubleshooting.",
+    "bestFor": "Researching circuit behavior and debugging approaches.",
+    "url": "https://electronics.stackexchange.com/",
+    "tags": [
+      "learning & community",
+      "reference",
+      "electronics",
+      "circuit"
+    ],
+    "related": [
+      "resistor",
+      "arduino-uno"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "google-scholar",
+    "name": "Google Scholar",
+    "kind": "reference",
+    "area": "Research",
+    "description": "Scholarly literature search across research publications.",
+    "bestFor": "Finding related studies for proposals and capstones.",
+    "url": "https://scholar.google.com/",
+    "tags": [
+      "research",
+      "reference"
+    ],
+    "related": [
+      "zotero"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "ieee-xplore",
+    "name": "IEEE Xplore",
+    "kind": "reference",
+    "area": "Research",
+    "description": "Digital library for electrical engineering and computing research.",
+    "bestFor": "Literature review in embedded, electronics and communications.",
+    "url": "https://ieeexplore.ieee.org/",
+    "tags": [
+      "research",
+      "reference",
+      "embedded",
+      "electronics"
+    ],
+    "related": [
+      "google-scholar",
+      "zotero"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "zotero",
+    "name": "Zotero",
+    "kind": "software",
+    "area": "Research",
+    "description": "Reference manager for citations and research collections.",
+    "bestFor": "Organizing capstone references and bibliographies.",
+    "url": "https://www.zotero.org/",
+    "tags": [
+      "research",
+      "software"
+    ],
+    "related": [
+      "google-scholar",
+      "ieee-xplore"
+    ],
+    "priority": 1
+  }
+]

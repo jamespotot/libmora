@@ -1,0 +1,10 @@
+node_modules
+.dist
+/dist
+.env
+.env.local
+*.tsbuildinfo
+.vscode
+/donations.jpg
+/c2e12fb4-11aa-417c-b33d-42d48c2de2f9.jpg
+/README-APPLY.txt

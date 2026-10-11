@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#f7f7f5" />
+    <meta name="description" content="Libmora — the practical resource atlas for Computer Engineering students. Discover hardware, software, libraries and project workflows." />
+    <title>Libmora — Computer Engineering Resource Atlas</title>
+  </head>
+  <body>
+    <script>
+      try { document.documentElement.dataset.theme = localStorage.getItem('libmora-theme') === 'dark' ? 'dark' : 'light'; } catch { document.documentElement.dataset.theme = 'light'; }
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
