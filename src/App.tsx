@@ -128,7 +128,7 @@ function App(){
    </nav>
    <div className="footer-note"><span className="footer-note-mark"><BookOpen size={18}/></span><div><strong>Learn from the original sources.</strong><p>Check publishers’ documentation, compatibility, safety notes, and terms before using a resource.</p></div></div>
   </div>
-  <div className="container footer-fine"><span>LIBMORA <i>·</i> COMPUTER ENGINEERING RESOURCE ATLAS</span><span>Independent educational directory <i>·</i> Verify technical details with official sources</span></div>
+  <div className="container footer-fine"><span>LIBMORA <i>·</i> COMPUTER ENGINEERING RESOURCE INDEX</span><span>Independent educational directory <i>·</i> Verify technical details with official sources</span></div>
  </footer></div>;
 }
 export default App;

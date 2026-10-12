@@ -1,6 +1,6 @@
-# Libmora - Computer Engineering Resource Atlas
+# COMPUTER ENGINEERING RESOURCE INDEX
 
-Libmora is an independent educational directory for Computer Engineering students. It brings together tools, applications, platforms, hardware, libraries, technical references, and guided project ideas in one searchable website.
+Libmora is an independent educational resource index for Computer Engineering students. It brings together tools, applications, platforms, hardware, libraries, technical references, and guided project ideas in one searchable website.
 
 ## Run locally
 
@@ -42,6 +42,6 @@ The donation QR image displayed by the site is `public/donations.jpg`. It is int
 
 ## Attribution and verification
 
-Libmora is an independent directory and is not affiliated with the publishers of listed tools or platforms. Resource names, logos, and linked documentation belong to their respective owners. Verify technical details, safety guidance, source licenses, and terms with the original publishers before using or redistributing third-party materials.
+Libmora is an independent resource index and is not affiliated with the publishers of listed tools or platforms. Resource names, logos, and linked documentation belong to their respective owners. Verify technical details, safety guidance, source licenses, and terms with the original publishers before using or redistributing third-party materials.
 
 Some brand marks are loaded from public icon CDNs and may require an internet connection. The application can fall back to category icons when a mark is unavailable.
